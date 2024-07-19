@@ -9,10 +9,10 @@ from Youtube.config import Config
 
 # Create a Pyrogram client
 app = Client(
-    "TikTok_Downlloader_Bot",
+    "YouTube_Downlloader_Bot",
     api_id=Config.29581147, 
     api_hash=Config.1fb9c7eb257dac875ec1a99b17528cfb, 
-    bot_token=Config.6862774279:AAEG8o9zdyZGAdDsu7X4YlVZz8vwI_QSnJY,
+    bot_token=Config.7226813407:AAFkJWlD4rLNSyApL-63lDIep3lBkDguxY0,
     plugins=dict(root="Youtube")
 )
 
